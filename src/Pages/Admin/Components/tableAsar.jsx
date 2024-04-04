@@ -54,7 +54,7 @@ const App = (params) => {
     }
     const columns = [
         {
-            title: 'Image',
+            title: 'Asar',
             dataIndex: 'name',
             key: 'name',
             render: (item) => <div>
