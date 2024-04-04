@@ -21,7 +21,7 @@ const Main = () => {
         <Page>
                 <div className='left'>
                     <Fade delay={1e3} cascade>
-                        <h1>Kim desun</h1>
+                        <h1>Muhammad AminXo`ja Muqimiy</h1>
                         <h2 className='h1'><span ref={el}></span></h2>
                     </Fade>
                 </div>
@@ -38,7 +38,7 @@ export default Main;
 const Page = styled.div`
     width: 100%;
     height: 100vh;
-    padding-top: 10%;
+    padding-top:5%;
     display: flex;
     justify-content: center;
     align-items: center;

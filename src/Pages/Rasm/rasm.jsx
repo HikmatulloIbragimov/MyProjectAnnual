@@ -5,6 +5,7 @@ import { collection, getDocs } from "firebase/firestore";
 import { db } from '../../Components/firebase/firebase';
 import { Image } from 'antd';
 import Loader from '../../Components/Loader/loader';
+import { Carousel } from 'antd';
 const Rasm = () => {
     const [data, setData] = useState([])
     useEffect(() => {
@@ -29,13 +30,26 @@ const Rasm = () => {
         <ImageBar>
             {
                 data.length ? data.map((item) => <div>
-                        
+
+
+
+                    <Carousel autoplay>
+                        <div>
                             <Image className='name' key={item.id} src={item.rasm} alt="" />
-                            
-                           
-                </div> 
+                        </div>
+                        {/* <div>
+                            <h3 style={contentStyle}>2</h3>
+                        </div>
+                        <div>
+                            <h3 style={contentStyle}>3</h3>
+                        </div>
+                        <div>
+                            <h3 style={contentStyle}>4</h3>
+                        </div> */}
+                    </Carousel>
+                </div>
                 )
-                : <Loader/>
+                    : <Loader />
             }
         </ImageBar>
     );
