@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Merriweather:wght@700&family=Montserrat:wght@400;500;600;700&family=Nunito+Sans:wght@500&family=Open+Sans:wght@300&family=Pacifico&family=Playfair+Display:wght@500&family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: poppins;
+}
